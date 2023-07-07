@@ -1,9 +1,8 @@
-[![Watch in action](https://i.imgur.com/HHCjVxB.png=100x)](https://imgur.com/a/7Eqwq9k)
+[Watch it working](https://imgur.com/a/7Eqwq9k)
 
-
-
-
-<img src="https://qph.cf2.quoracdn.net/main-qimg-66ca1e45bff46b3591257520ea88c6c2-pjlq">
+<img src="https://i.imgur.com/HHCjVxB.png"
+style="height:400px;  object-fit: contain;">
+<img src="https://qph.cf2.quoracdn.net/main-qimg-66ca1e45bff46b3591257520ea88c6c2-pjlq" style="height:250px;  object-fit: contain;" >
 
 
 Add this JSON to your firebase real time database store to.
