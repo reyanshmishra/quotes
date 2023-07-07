@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="failed_to_load">Failed to load.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="quote_saved">Quote saved.</string>
+    <string name="loading">Loading</string>
+    <string name="gallery">Gallery</string>
+    <string name="remove">Remove</string>
+    <string name="enter_your_quote">Enter your quote</string>
+    <string name="edit_quote">Edit Quote</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="search_library">Search Library</string>
+    <string name="author_name">Author Name</string>
+    <string name="quote">Quote</string>
+    <string name="screen_size">regular</string>
+    <string name="share">Share</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="send_to">Send to</string>
+    <string name="edit">Edit</string>
+    <string name="photo_added_to_favorites">Photo added to favorites.</string>
+    <string name="photo_removed_from_favorites">Photo removed from favorites.</string>
+
+    <string name="grant_permission">Grant Permission</string>
+    <string name="grant_permission_message">You will have to grant permission from settings.\nOpen Settings?</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="no">No</string>
+    <string name="insta_id"> \@motivational_mantra</string>
+    <string name="casey_neistat"> If you are doing what everyone else is doing, you are doing it wrong. </string>
+    <string name="share_post">SHARE A \n POST</string>
+    <string name="share_story">Share a \n  story</string>
+    <string name="what_do_you_want_to_share">What do you want to share?</string>
+    <string name="insta_post">Insta Post</string>
+    <string name="brand_name">Motivational\nमंत्र</string>
+
+    <string name="device_not_supported">Device not supported</string>
+    <string name="device_not_supported_message">FFmpeg is not supported on your device</string>
+    <string name="back_text">When you treat yourself like a Queen, that is self-respect.When you want everyone around to treat you like a Queen, that’s ego.
+        Giving zero shit about what others think of you.
+        Not taking yourself too seriously.Being grateful.
+        ज़िन्दगी में एक बात याद रखो, कभी भी किसी को ये बोलने का मौका मत दो की आप कुछ नहीं कर सकते।
+        आप देर कर सकते है, लेकिन वक़्त नहीं करेगा।
+        अगर आपने गरीबी में जन्म लिया है तो ये आपकी गलती नहीं है, लेकिन अगर आप गरीबी में मर जाते है तो ये आपकी गलती है ।
+        Looks matter. Be classy.
+        Trust your instincts. They are right most of the times.
+        Don\'t be normal. Normal people are overrated. Be crazy.
+        Perfection is a myth. It\'s okay to be imperfect.
+        Be selfish, afterall it\'s your life.
+        Try paragliding if you are afraid of heights. Try rafting if you are afraid of large water bodies. Get out of your comfort zone.
+        It\'s okay to fail. Remember you didn\'t learn cycling in the first go.
+        Here is the hard truth people necessarily don’t want you to succeed and the bigger your dream the more people gonna come your way to stop you.
+        The only way to avoid pissing people off is to do nothing important, but if you are striving for something important, if you are trying to make the real change if there is something in your life that you are absolutely hell-bent to make happen you have got to understand that you are going to fight against something.
+        People are going to be pushing back against you and it is going to be your ability to hold true to that vision that’s going to determine whether you can pull it off.
+        [4:29 PM, 1/28/2018]  यही जज्बा रहा तो मुश्किलों का हल भी निकलेगा
+जमीं बंजर हुई तो क्या वहीं से जल भी निकलेगा
+ना हो मायूस ना घबरा अंधेरों से मेरे साथी
+इन्हीं रातों के दामन से सुनहरा कल भी निकलेगा
+  तैरना सीखना है तो पानी में उतरना ही होगा
+किनारे बैठ कर कोई गोताखोर नहीं बनता
+  हीरे को परखना है तो अँधेरे का इंतजार करो
+धूप में तो काँच के टुकड़े भी चमकने लगते हैं
+  बिना संघर्ष के कोई महान नहीं बनता
+पत्थर पर जबतक चोट ना पड़े
+तबतक पत्थर भी भगवान् नहीं बनता
+  जिंदगी में कठिनाइयां आयें तो उदास ना होना
+क्यूंकि कठिन रोल अच्छे एक्टर को ही दिए जाते हैं!!
+  बारिश की बूँदें भले ही छोटी हों..
+लेकिन उनका लगातार बरसना
+बड़ी नदियों का बहाव बन जाता है…
+वैसे ही हमारे छोटे छोटे प्रयास भी
+जिंदगी में बड़ा परिवर्तन ला सकते हैं.
+  जिंदगी में तपिश कितनी भी हो कभी हताश मत होना
+क्योंकि धूप कितनी भी तेज हो समंदर कभी सूखा नहीं करते
+  जो सिरफिरे होते हैं वही इतिहास लिखते हैं
+समझदार लोग तो सिर्फ उनके बारे में पढ़ते हैं
+  अपनी छवि का ध्यान रखें
+क्यूंकि इसकी आयु आपकी आयु से कहीं ज्यादा होती है
+संस्कारों से बड़ी कोई वसीयत नहीं होती
+और ईमानदारी से बड़ी कोई विरासत नहीं होती
+  सफल लोग रास्ते बदलते हैं इरादे हैं
+और असफल लोग अपने इरादे ही बदल लेते हैं|
+        “The reason you procrastinate is because you are afraid of failing.”Overcome your fear of failure.
+Selling your time in exchange for money is called earned income.
+फिर तो ख़ामोशी भी सुनती है दुनिया,
+लेकिन पहले धूम मचानी पड़ती है.
+ मैं तब तक कोशिश करूंगा, जब तक जीत नहीं जाता ।
+ जितना कठिन संघर्ष होगा, जीत उनती ही शानदार होगी ।
+        जो सपने देखने की हिम्मत रखते है, वो पूरी दुनिया जीत सकते है ।
+ प्रत्येक अच्छा कार्य पहले असम्भव नजर आता है।
+ संघर्ष में आदमी अकेला होता है, सफलता में दुनिया साथ चलती है ।
+ब्रह्माण्ड की सारी शक्तियां पहले से हमारी हैं| वो हमीं हैं जो अपनी आँखों पर हाँथ रख लेते हैं और फिर रोते हैं कि कितना अन्धकार है|
+हम चाहें तो अपने आत्मविश्वास और मेहनत के बल पर अपना भाग्य खुद लिख सकते है और अगर हमको अपना भाग्य लिखना नहीं आता तो परिस्थितियां हमारा भाग्य लिख देंगी|
+ आप यह नहीं कह सकते कि आपके पास समय नहीं है क्योंकि आपको भी दिन में उतना ही समय (24 घंटे) मिलता है जितना समय महान एंव सफल लोगों को मिलता है|
+ मुसीबतों से भागना, नयी मुसीबतों को निमंत्रण देने के समान है| जीवन में समय-समय पर चुनौतियों एंव मुसीबतों का सामना करना पड़ता है एंव यही जीवन का सत्य है| एक शांत समुन्द्र में नाविक कभी भी कुशल नहीं बन पाता
+विश्वास में वो शक्ति है जिससे उजड़ी हुई दुनिया में प्रकाश लाया जा सकता है| विश्वास पत्थर को भगवान बना सकता है और अविश्वास भगवान के बनाए इन्सान को पत्थरदिल बना सकता है|
+    </string>
+    <string name="share_a_video">SHARE A VIDEO</string>
+    <string name="processing">Processing</string>
+<string name="pinterest">4956358244271404267</string>
+</resources>

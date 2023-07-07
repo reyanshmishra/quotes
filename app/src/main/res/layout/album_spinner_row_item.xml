@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/albumPhotoImage"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/albumNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/albumPhotoImage"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:text="@string/adele" />
+
+    <TextView
+        android:id="@+id/photoCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/albumNameText"
+        android:layout_toRightOf="@+id/albumPhotoImage"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:text="135"
+
+        />
+</RelativeLayout>

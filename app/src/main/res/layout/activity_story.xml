@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.motivational.quotes.Activities.StoryActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.motivational.quotes.Utils.MyImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/over_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawable_overlay"></RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/view_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/quoteText"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/wolf" />
+
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp"
+                android:fontFamily="@font/fredoka_regular"
+                android:gravity="center"
+                android:hint="Quote"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="45dp"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/quote"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@color/white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/brand_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/border_drawable"
+                android:fontFamily="@font/fredoka_regular"
+                android:gravity="center"
+                android:text="@string/brand_name"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/quotesLogoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/drawable_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="28dp"
+                app:srcCompat="@drawable/instagram" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/lato_light"
+                android:gravity="center"
+                android:text="@string/insta_id"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/drawable_circle"
+        android:padding="10dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Save"
+        app:srcCompat="@drawable/ic_save_24dp" />
+
+
+    <ImageButton
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/change_overlay"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/drawable_circle"
+        android:padding="10dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Change Overlay"
+        app:srcCompat="@drawable/ic_add" />
+
+
+    <ImageButton
+        android:id="@+id/change_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/drawable_circle"
+        android:padding="10dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Change Overlay"
+        app:srcCompat="@drawable/ic_shuffle_black_24dp" />
+
+
+    <ImageButton
+        android:id="@+id/image_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/save"
+        android:background="@drawable/drawable_circle"
+        android:padding="10dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Change Overlay"
+        app:srcCompat="@drawable/ic_search_black_24dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="8dp" />
+
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp">
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/slider_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="100"
+            android:progress="80"
+            android:progressBackgroundTint="#000000"
+            android:progressTint="@color/white"
+            android:splitTrack="false"
+            android:thumbOffset="8dp"
+            android:thumbTint="@color/white"
+            app:seekBarRotation="CW270" />
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/slider_2_wrapper"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="-12dp"
+        app:srcCompat="@drawable/ic_brightness" />
+
+    <SeekBar
+        android:id="@+id/font_size_seekbar"
+        android:layout_width="match_parent"
+        android:thumbTint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/change_overlay"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/change_overlay"
+        android:max="100" />
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:id="@+id/slider_2_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp">
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/slider_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="250"
+            android:progressBackgroundTint="#000000"
+            android:progressTint="@color/white"
+            android:splitTrack="false"
+            android:thumbOffset="8dp"
+            android:thumbTint="@color/white"
+            app:seekBarRotation="CW270" />
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/slider_2_wrapper"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="-8dp"
+        app:srcCompat="@drawable/ic_blur" />
+
+
+</RelativeLayout>
